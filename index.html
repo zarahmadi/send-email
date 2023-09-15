@@ -3,18 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>send email</title>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   
-<h1>hello</h1>
-    <p>hi</p>
-<div class="card"></div>
-    <script src="js/index.js"></script>
+    <div class="form">
+      <nav class="navbar">
+        <p>send new email</p>
+      </nav>
+      <section class="section">
+        <form class="form1" action="#">
+          <label for="email">to:</label>
+          <input class="input" id="email" type="email" />
+          <br />
+          <label for="subject">subject:</label>
+          <input class="input" id="subject" type="text" />
+          <br />
+          <label for="message">message:</label>
+          <input class="input" id="message" type="text" />
+          <br />
+          <div class="sppiner">
+            <img
+              class="sppiner-img"
+              src="img/spinner.gif"
+              alt="sppiner"
+              width="140px"
+            />
+          </div>
+          <div class="send-reset">
+            <input class="send-input" value="send" type="submit" />
+            <input class="reset-data" value="reset" type="reset" />
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

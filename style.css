@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(to right, lightpink, lightblue);
+}
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 9rem;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: lightcoral;
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 1rem 0;
+  border-color: grey;
+}
+
+.send-reset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.send-input {
+  background-color: lightpink;
+}
+
+.reset-data {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.curser-pointer {
+  cursor: pointer;
+  background-color: lightpink;
+  border: transparent;
+  padding: 0.5rem 3rem;
+}
+
+.sppiner {
+  margin: 0 auto;
+}
+
+.sppiner-img {
+  display: none;
+}
+
+.send-input,
+.reset-data {
+  border: transparent;
+  padding: 0.5rem 3rem;
+}
+input:focus {
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .form {
+    padding: 0 4rem;
+    padding-top: 9rem;
+  }
+}
